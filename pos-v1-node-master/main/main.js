@@ -13,7 +13,7 @@ module.exports = function main() {
 	var sumPrice=0.00; //所有商品金额
 	var cutPrice=0.00;  //优惠的金额
 	
-	printInventory(AllItems);
+	//printInventory(AllItems);
 	
 	function printInventory(items){
 		var itemsAndnum = [];

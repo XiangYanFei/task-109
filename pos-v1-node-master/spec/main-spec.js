@@ -2,8 +2,6 @@ const printInventory= require('../main/main');
 var datbase=require('../main/datbase');
 var datbase=new datbase();
 
-
-
 describe('pos', function () {
     var allItems;
     var inputs;
@@ -27,7 +25,7 @@ describe('pos', function () {
 
         spyOn(console, 'log');
 
-        printInventory(inputs);
+       printInventory(inputs);
 
         var expectText =
             '***<没钱赚商店>购物清单***\n' +
